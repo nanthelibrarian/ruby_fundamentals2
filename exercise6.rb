@@ -1,2 +1,5 @@
 grocery_list = ["steak", "potatoes", "salad", "eggs", "potato chips"]
-puts grocery_list 
+ 
+grocery_list.each do |item|
+	puts "* #{item}"
+end
