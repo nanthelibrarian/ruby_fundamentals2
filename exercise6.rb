@@ -33,3 +33,7 @@ puts "hey, weird!  An alphabetically organized grocery store.  Let's sort our li
 
 print_grocery_list(grocery_list.sort) 
 
+puts "What kind of grocery store doesn't have potatoes?"
+grocery_list.delete_at(1)
+
+print_grocery_list(grocery_list.sort) 
