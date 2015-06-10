@@ -22,6 +22,9 @@ end
 
 students_increase(students)
 
+students.delete(:cohort2)
+
+students_list(students)
 
 
 
